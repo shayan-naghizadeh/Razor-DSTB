@@ -1,0 +1,56 @@
+***** HSPICE -- D-2010.03-SP1 32-BIT (May 26 2010) winnt ******
+ Input File: c:\users\hwi\desktop\oooo\error_detect.txt
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   shayan               HOSTNAME: DESKTOP-UH23RS4
+ lic: HOSTID: "ac220bb2e889 005056c00008 00ffd0c9ff2f 240a64740301 160a64740301
+ lic: Using FLEXlm license file:
+ lic: 27000@elena
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "ac220bb2e889 005056c00008 00ffd0c9ff2f 240a
+ lic:
+ init: begin read circuit files,  cpu clock=  9.60E-02
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post     =     2.00
+       option nomod
+ init: end read circuit files,  cpu clock=  1.95E-01 memory=    281 kb
+ init: begin check errors,  cpu clock=  1.95E-01
+ init: end check errors,  cpu clock=  2.18E-01 memory=    342 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  2.18E-01
+       establish matrix -- done,  cpu clock=  2.32E-01 memory=    415 kb
+       re-order matrix -- done,  cpu clock=  2.42E-01 memory=    426 kb
+ init: end setup matrix,  cpu clock=  2.49E-01 memory=    481 kb
+ dcop: begin dcop,  cpu clock=  2.58E-01
+ dcop: end dcop,  cpu clock=  2.72E-01 memory=    481 kb  tot_iter=      11
+ output: c:\users\hwi\desktop\oooo\error_detect.mt0
+ sweep: tran tran0    begin, stop_t=  2.00E-07 #sweeps= 101 cpu clock=  2.92E-01
+ tran: time= 2.0200E-08 tot_iter=     644 conv_iter=     204 cpu clock= 4.15E-01
+ tran: time= 4.0000E-08 tot_iter=    1177 conv_iter=     384 cpu clock= 5.18E-01
+ tran: time= 6.0000E-08 tot_iter=    1729 conv_iter=     567 cpu clock= 6.18E-01
+ tran: time= 8.0200E-08 tot_iter=    2266 conv_iter=     749 cpu clock= 7.26E-01
+ tran: time= 1.0020E-07 tot_iter=    2818 conv_iter=     932 cpu clock= 8.30E-01
+ tran: time= 1.2020E-07 tot_iter=    3353 conv_iter=    1113 cpu clock= 9.46E-01
+ tran: time= 1.4000E-07 tot_iter=    3903 conv_iter=    1295 cpu clock= 1.07E+00
+ tran: time= 1.6000E-07 tot_iter=    4438 conv_iter=    1476 cpu clock= 1.18E+00
+ tran: time= 1.8000E-07 tot_iter=    4990 conv_iter=    1659 cpu clock= 1.28E+00
+ tran: time= 2.0000E-07 tot_iter=    5525 conv_iter=    1840 cpu clock= 1.38E+00
+ sweep: tran tran0    end,  cpu clock=  1.39E+00 memory=    487 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

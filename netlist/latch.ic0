@@ -1,0 +1,23 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "15:23:13 02/02/2010 "
+* "netlist" "c:\users\hwi\desktop\oooo\latch.txt "
+* "runtitle" ""
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ d =   0.            
++ dn = 342.1362m       
++ out1 = 899.9912m       
++ out2 = 452.4063m       
++ out3 = 441.6814m       
++ phi =   0.            
++ phib = 900.0000m       
++ q = 441.6814m       
++ un = 573.1606m       
++ vdd = 900.0000m       
+***   END: Saved Operating Point ***                     

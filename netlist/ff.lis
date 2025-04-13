@@ -1,0 +1,109 @@
+ ****** HSPICE -- D-2010.03-SP1 32-BIT (May 26 2010) winnt ******               
+  Copyright (C) 2010 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: c:\users\hwi\desktop\oooo\ff.txt                                  
+  lic:  
+  lic: FLEXlm: v8.5b 
+  lic: USER:   shayan               HOSTNAME: DESKTOP-UH23RS4 
+  lic: HOSTID: "ac220bb2e889 005056c00008 00ffd0c9ff2f 240a64740301 160a64740301
+  
+  lic: Using FLEXlm license file: 
+  lic: 27000@elena 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9 
+  lic: NODE LOCKED license on hostid "ac220bb2e889 005056c00008 00ffd0c9ff2f 240
+ a
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_D-2010.03-SP1\meta.cfg
+  **warning** (c:\users\hwi\desktop\oooo\ff.txt:199) Both nodes of element vgnd are connected together; Line ignored.
+  **info** (c:\users\hwi\desktop\oooo\ff.txt:200) DC voltage reset to initial transient source value              in source        0:vin                 new dc=  0.0000D+00
+ Warning:  Acde = 1 may be too small in BSIM4 model nmos with w=6.4e-008 l=3.2e-008.
+
+ Warning: (B1 + Weff) may be too small in BSIM4 model nmos with w=6.4e-008 l=3.2e-008.
+
+ Warning:  Acde = 1 may be too small in BSIM4 model nmos with w=3.2e-008 l=3.2e-008.
+
+ Warning: (B1 + Weff) may be too small in BSIM4 model nmos with w=3.2e-008 l=3.2e-008.
+
+ Warning:  Acde = 1 may be too small in BSIM4 model pmos with w=1.28e-007 l=3.2e-008.
+
+ Warning:  Acde = 1 may be too small in BSIM4 model pmos with w=6.4e-008 l=3.2e-008.
+
+ Warning: (B1 + Weff) may be too small in BSIM4 model pmos with w=6.4e-008 l=3.2e-008.
+
+ 
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+1****** HSPICE -- D-2010.03-SP1 32-BIT (May 26 2010) winnt ******               
+ ******  
+ 
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is voltage   simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:d       =   0.      0:df18    = 342.1373m 0:dn13    = 104.5298m
+ +0:out10   = 899.9900m 0:out11   = 899.9893m 0:out12   =   9.2631u
+ +0:out14   = 452.4067m 0:out16   = 441.6797m 0:phi     =   0.     
+ +0:phib    = 900.0000m 0:q       = 490.1456m 0:qb      = 441.6798m
+ +0:uf18    = 573.1617m 0:up13    = 900.0000m 0:vdd     = 900.0000m
+
+ ******  
+ 
+
+  ******  transient analysis tnom=  25.000 temp=  25.000 *****
+   tcq=  3.0265E-09  targ=  3.0315E-09   trig=  5.0000E-12
+
+          ***** job concluded
+1****** HSPICE -- D-2010.03-SP1 32-BIT (May 26 2010) winnt ******               
+ ******  
+ 
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count                  :     1
+  Available CPU Count                         :     4
+  Actual Model Evaluation(Load) Threads Count :     1
+  Actual Solver Threads Count                 :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =     104 # elements   =      26
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       4
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =      22 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.02           1          10
+  transient          1.31          41       10462        3971 rev=       200
+  readin             0.11
+  errchk             0.02
+  setup              0.03
+  output             0.00
+
+
+           total memory used          267  kbytes
+           total cpu time            1.55 seconds
+           total elapsed time        1.63 seconds
+           job started at     20:04:10 02/02/2010
+           job ended   at     20:04:12 02/02/2010
+
+
+  lic: Release hspice token(s) 

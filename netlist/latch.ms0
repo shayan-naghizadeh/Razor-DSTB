@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
+.TITLE ' '
+ vil              vih              vol              voh               
+ temper           alter#            
+    failed           failed           failed           failed         
+   25.0000        1                 
