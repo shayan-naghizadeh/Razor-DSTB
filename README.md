@@ -1,8 +1,9 @@
 # Razor-DSTB
+# Razor-DSTB
 # ⚙️ VLSI Sequential Element Design – Latch, Flip-Flop, Razor/DSTB
 
-This repository contains the VLSI design, simulation, and timing analysis of key sequential elements: **Latch**, **Flip-Flop**, and **Razor/DSTB error detection circuits**.  
-The project is implemented based on tri-state inverter logic and includes precise measurements of setup/hold times, delays, and signal correctness.
+This repository contains the VLSI design, HSPICE simulation, and timing analysis of key sequential elements: **Latch**, **Flip-Flop**, and **Razor/DSTB error detection circuits**.  
+The project is implemented using tri-state inverter logic and includes precise measurements of setup/hold times, delays, and signal correctness.
 
 ---
 
@@ -47,31 +48,6 @@ This includes simulating behavior during **forbidden time windows**, analyzing *
 
 ---
 
-## 📁 Files
+## 🧪 Simulation Environment
 
-- `latch.sch`, `flipflop.sch`, `razor.sch`: Schematic design files
-- `timing_analysis.pdf`: Timing diagrams and calculations
-- `report.pdf`: Full project report with figures, tables, and simulations
-- `testbench.v`, `netlist.sp`: Simulation environment and SPICE-compatible netlist (optional)
-
----
-
-## 📈 Results Summary
-
-| Element     | Tcq Delay | Setup Time | Hold Time |
-|-------------|-----------|------------|-----------|
-| Latch       | ~284 ps   | ~1 ps      | 0         |
-| Flip-Flop   | ~4.02 ns  | ~0.8 ps    | 0         |
-
-- **Razor circuit** detects late input violations and triggers error signals.
-- **DSTB implementation** stabilizes output and reduces metastability risk.
-
----
-
-## 👤 Author
-
-**Shayan Nagizadeh**  
-Amirkabir University of Technology – Advanced VLSI Design Course  
-Instructor: Dr. Sedighi
-
----
+All components were simulated using **HSPICE**.
